@@ -1,0 +1,33 @@
+{
+  "name": "react_test",
+  "version": "1.0.0",
+  "description": "react development environment setting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeyunhome/react_test.git"
+  },
+  "author": "neuezeal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeyunhome/react_test/issues"
+  },
+  "homepage": "https://github.com/leeyunhome/react_test#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
